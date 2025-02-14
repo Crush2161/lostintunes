@@ -12,12 +12,12 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Forever_Crush")
-BOT_USERNAME = getenv("BOT_USERNAME", "Softwaretestingsss_bot")
-BOT_NAME = getenv("BOT_NAME", "Software")
+BOT_USERNAME = getenv("BOT_USERNAME", "lost_in_tunebot")
+BOT_NAME = getenv("BOT_NAME", "✨ℓσѕт_ιη_тυηє🎼")
 ASSUSERNAME = getenv("ASSUSERNAME", None)
 EVALOP = list(map(int, getenv("EVALOP", "7019897963").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002195645178))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002493977012))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 GPT_API = getenv("GPT_API")
@@ -27,7 +27,7 @@ OWNER_ID = int(getenv("OWNER_ID", 7884638799))
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/MrDevloaper/CRUSHMUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Crush2161/lostintunes")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -88,7 +88,7 @@ PING_VID_URL = getenv(
     "PING_VID_URL", "https://envs.sh/EIT.mp4"
 )
 PLAYLIST_IMG_URL = "https://envs.sh/yH_.jpg"
-STATS_VID_URL = "https://envs.sh/EIT.mp4"
+STATS_VID_URL = "https://envs.sh/EkU.mp4"
 TELEGRAM_AUDIO_URL = "https://envs.sh/ygD.jpg"
 TELEGRAM_VIDEO_URL = "https://envs.sh/yH-.jpg"
 STREAM_IMG_URL = "https://envs.sh/ygB.jpg"
